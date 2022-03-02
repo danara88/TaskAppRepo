@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "u7kf2nei0xwM9hSXI3aX43kcUdxlsj2w7U5hqzy1xVU=",
+  "Source": "TaskApp.Api",
+  "BasePath": "_content/TaskApp.Api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

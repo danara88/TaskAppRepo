@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "79a8deb2-4399-4820-8270-e4bb762f72ad": {
+      "ProjectGuid": "79a8deb2-4399-4820-8270-e4bb762f72ad",
+      "DisplayName": "TaskApp.Api",
+      "ColorIndex": 0
+    },
+    "58a1da84-3edf-4f5a-93a9-a616bf8ade85": {
+      "ProjectGuid": "58a1da84-3edf-4f5a-93a9-a616bf8ade85",
+      "DisplayName": "TaskApp.Core",
+      "ColorIndex": 1
+    },
+    "ae8e94aa-35de-4184-8352-23301f6c604c": {
+      "ProjectGuid": "ae8e94aa-35de-4184-8352-23301f6c604c",
+      "DisplayName": "TaskApp.Infrastructure",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}

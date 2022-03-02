@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "H+o/L63N8w21dJRc7UxHtFQLRqpTiVFbQlN6YE8xBlYYUtHi9AjBbHUTzgNaSLRWOJLJdr8LvCPha9rGxyA2jw==",
+  "success": true,
+  "projectFilePath": "C:\\wamp64\\www\\18-practicas\\12-taskapp\\TaskApp\\TaskApp.Core\\TaskApp.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Danie\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.2\\microsoft.entityframeworkcore.abstractions.6.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,17 @@
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Infrastructure\bin\Debug\net6.0\TaskApp.Infrastructure.deps.json
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Infrastructure\bin\Debug\net6.0\TaskApp.Infrastructure.runtimeconfig.json
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Infrastructure\bin\Debug\net6.0\TaskApp.Infrastructure.dll
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Infrastructure\bin\Debug\net6.0\ref\TaskApp.Infrastructure.dll
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Infrastructure\bin\Debug\net6.0\TaskApp.Infrastructure.pdb
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Infrastructure\bin\Debug\net6.0\TaskApp.Core.dll
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Infrastructure\bin\Debug\net6.0\TaskApp.Core.pdb
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Infrastructure\obj\Debug\net6.0\TaskApp.Infrastructure.csproj.AssemblyReference.cache
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Infrastructure\obj\Debug\net6.0\TaskApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Infrastructure\obj\Debug\net6.0\TaskApp.Infrastructure.AssemblyInfoInputs.cache
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Infrastructure\obj\Debug\net6.0\TaskApp.Infrastructure.AssemblyInfo.cs
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Infrastructure\obj\Debug\net6.0\TaskApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Infrastructure\obj\Debug\net6.0\TaskApp.Infrastructure.csproj.CopyComplete
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Infrastructure\obj\Debug\net6.0\TaskApp.Infrastructure.dll
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Infrastructure\obj\Debug\net6.0\ref\TaskApp.Infrastructure.dll
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Infrastructure\obj\Debug\net6.0\TaskApp.Infrastructure.pdb
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Infrastructure\obj\Debug\net6.0\TaskApp.Infrastructure.genruntimeconfig.cache

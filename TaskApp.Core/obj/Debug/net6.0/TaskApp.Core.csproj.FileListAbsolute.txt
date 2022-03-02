@@ -1,0 +1,11 @@
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Core\bin\Debug\net6.0\TaskApp.Core.deps.json
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Core\bin\Debug\net6.0\TaskApp.Core.dll
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Core\bin\Debug\net6.0\ref\TaskApp.Core.dll
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Core\bin\Debug\net6.0\TaskApp.Core.pdb
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Core\obj\Debug\net6.0\TaskApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Core\obj\Debug\net6.0\TaskApp.Core.AssemblyInfoInputs.cache
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Core\obj\Debug\net6.0\TaskApp.Core.AssemblyInfo.cs
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Core\obj\Debug\net6.0\TaskApp.Core.csproj.CoreCompileInputs.cache
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Core\obj\Debug\net6.0\TaskApp.Core.dll
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Core\obj\Debug\net6.0\ref\TaskApp.Core.dll
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Core\obj\Debug\net6.0\TaskApp.Core.pdb
