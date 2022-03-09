@@ -41,6 +41,11 @@ namespace TaskApp.Core.Entities
         public RoleTypeEnum Role { get; set; }
 
         /// <summary>
+        /// User's profile picture
+        /// </summary>
+        public string? Img { get; set; }
+
+        /// <summary>
         /// Verify if it is deleted or not
         /// </summary>
         public bool IsDeleted { get; set; }

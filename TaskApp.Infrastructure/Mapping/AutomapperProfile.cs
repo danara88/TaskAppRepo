@@ -15,6 +15,10 @@ namespace TaskApp.Infrastructure.Mapping
         /// </summary>
         public AutomapperProfile()
         {
+            #region User
+            CreateMap<UpdateUserProfileInput, User>();
+            #endregion User
+
             #region Homework
             CreateMap<HomeworkInput, Homework>();
             CreateMap<HomeworkDto, Homework>().ReverseMap();

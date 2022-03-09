@@ -73,3 +73,8 @@ C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Api\bin\Debug\net6.0\Fluen
 C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Api\bin\Debug\net6.0\Azure.Core.dll
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Api\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Api\bin\Debug\net6.0\Azure.Storage.Common.dll
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Api\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Api\bin\Debug\net6.0\System.Memory.Data.dll

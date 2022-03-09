@@ -9,6 +9,9 @@ using TaskApp.Infrastructure.Interfaces;
 
 namespace TaskApp.Api.Controllers
 {
+    /// <summary>
+    /// Security controller
+    /// </summary>
     [ApiController]
     public class SecurityController : ControllerBase
     {

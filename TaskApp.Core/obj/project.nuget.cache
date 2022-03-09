@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "H+o/L63N8w21dJRc7UxHtFQLRqpTiVFbQlN6YE8xBlYYUtHi9AjBbHUTzgNaSLRWOJLJdr8LvCPha9rGxyA2jw==",
+  "dgSpecHash": "ka1n2n0yobMXwD8PbJCoUjNymJIleqnZggcNZUzOJttYFkQK+DQ+eTv5mI5d25oXR1LTUEGixG6DzhN90xv6tA==",
   "success": true,
   "projectFilePath": "C:\\wamp64\\www\\18-practicas\\12-taskapp\\TaskApp\\TaskApp.Core\\TaskApp.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Danie\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.2\\microsoft.entityframeworkcore.abstractions.6.0.2.nupkg.sha512"
+    "C:\\Users\\Danie\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.15\\microsoft.aspnetcore.http.features.5.0.15.nupkg.sha512",
+    "C:\\Users\\Danie\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.2\\microsoft.entityframeworkcore.abstractions.6.0.2.nupkg.sha512",
+    "C:\\Users\\Danie\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Danie\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
   ],
   "logs": []
 }
