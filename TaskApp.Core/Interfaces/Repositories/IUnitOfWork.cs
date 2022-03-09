@@ -13,6 +13,8 @@ namespace TaskApp.Core.Interfaces.Repositories
 
         IRepository<CategoryHomework> CategoryHomeworkRepository { get; }
 
+        IRepository<User> UserRepository { get; }
+
         ISecurityRepository SecurityRepository { get; }
 
         void Dispose();

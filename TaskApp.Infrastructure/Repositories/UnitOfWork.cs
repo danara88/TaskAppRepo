@@ -10,6 +10,7 @@ namespace TaskApp.Infrastructure.Repositories
         private readonly IHomeworkRepository _homeworkRepository;
         private readonly ICategoryRepository _categoryRepository;
         private readonly IRepository<CategoryHomework> _categoryHomeworkRepository;
+        private readonly IRepository<User> _userRepository;
         private readonly ISecurityRepository _securityRepository;
 
         /// <summary>
@@ -35,6 +36,11 @@ namespace TaskApp.Infrastructure.Repositories
         /// Method to get repository
         /// </summary>
         public IRepository<CategoryHomework> CategoryHomeworkRepository => _categoryHomeworkRepository ?? new BaseRepository<CategoryHomework>(_context);
+
+        /// <summary>
+        /// Method to get repository
+        /// </summary>
+        public IRepository<User> UserRepository => _userRepository ?? new BaseRepository<User>(_context);
 
         /// <summary>
         /// Method to get repository

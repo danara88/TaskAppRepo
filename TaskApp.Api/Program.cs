@@ -7,6 +7,7 @@ using TaskApp.Api.Helpers.AuthHelper;
 using TaskApp.Core.Interfaces.Repositories;
 using TaskApp.Core.Interfaces.Services;
 using TaskApp.Core.Services;
+using TaskApp.Infrastructure.AzureServices;
 using TaskApp.Infrastructure.Data;
 using TaskApp.Infrastructure.Filters;
 using TaskApp.Infrastructure.Interfaces;
@@ -32,7 +33,9 @@ builder.Services.AddControllers(options =>
 });
 
 builder.Services.Configure<PasswordOptions>(builder.Configuration.GetSection("PasswordOptions"));
+builder.Services.Configure<AzureBlobSettings>(builder.Configuration.GetSection("AzureBlobSettings"));
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddScoped<IBlobService, BlobService>();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
 builder.Services.AddScoped<IPasswordService, PasswordService>();
 builder.Services.AddScoped<IAuthHelper, AuthHelper>();
@@ -40,6 +43,7 @@ builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 builder.Services.AddTransient<IHomeworkService, HomeworkService>();
 builder.Services.AddTransient<ICategoryService, CategoryService>();
 builder.Services.AddTransient<ISecurityService, SecurityService>();
+builder.Services.AddTransient<IUserService, UserService>();
 
 builder.Services.AddAuthentication(options =>
 {
