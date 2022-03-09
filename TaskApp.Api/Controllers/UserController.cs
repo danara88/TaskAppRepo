@@ -33,7 +33,7 @@ namespace TaskApp.Api.Controllers
         /// <param name="input"></param>
         /// <returns></returns>
         [HttpPut]
-        [Route("~/api/user/{id}")]
+        [Route("~/api/user/update_user_profile/{id}")]
         public async Task<ActionResult> UpdateUserProfile(int id, [FromForm] UpdateUserProfileInput input)
         {
             var user = _mapper.Map<User>(input);
