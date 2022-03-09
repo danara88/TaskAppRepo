@@ -38,9 +38,10 @@ namespace TaskApp.Core.Services
             var userDB = await _unitOfWork.UserRepository.GetByID(user.Id);
             if (userDB == null) throw new BusinessException("The user does not exist");
 
-            userDB.Name = user.Name;
-            userDB.Surname = user.Surname;
+            if (userDB.Name != user.Name) userDB.Name = user.Name;
+            if (userDB.Surname != user.Surname) userDB.Surname = user.Surname;
 
+            // Change or upload profile picture
             try
             {
                 if (Input.Img != null)
@@ -50,7 +51,13 @@ namespace TaskApp.Core.Services
                         await Input.Img.CopyToAsync(memoryStream);
                         var content = memoryStream.ToArray();
                         var extension = Path.GetExtension(Input.Img.FileName);
-                        userDB.Img = await _blobService.UpdateFileAsync(content, extension, "users", userDB.Img, Input.Img.ContentType);
+                        if (userDB.Img != null) 
+                        {
+                            userDB.Img = await _blobService.UpdateFileAsync(content, extension, "users", userDB.Img, Input.Img.ContentType);
+                        } else
+                        {
+                            userDB.Img = await _blobService.UploadFileAsync(content, extension, "users", Input.Img.ContentType);
+                        }
                     }
                 }
 

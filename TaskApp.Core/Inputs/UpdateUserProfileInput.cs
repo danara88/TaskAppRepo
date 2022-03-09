@@ -11,6 +11,6 @@ namespace TaskApp.Core.Inputs
 
         public string Surname { get; set; }
 
-        public IFormFile Img { get; set; }
+        public IFormFile? Img { get; set; }
     }
 }
