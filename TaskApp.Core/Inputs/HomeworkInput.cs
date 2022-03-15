@@ -1,4 +1,6 @@
-﻿using TaskApp.Core.Enumerations;
+﻿using Microsoft.AspNetCore.Mvc;
+using TaskApp.Core.Enumerations;
+using TaskApp.Core.Helpers;
 
 namespace TaskApp.Core.Inputs
 {
@@ -14,5 +16,8 @@ namespace TaskApp.Core.Inputs
         public string Content { get; set; }
 
         public HomeworkStatusEnum Status { get; set; }
+
+        [ModelBinder(BinderType = typeof(TypeBinder<List<int>>))]
+        public List<int> CategoriesIDs { get; set; }
     }
 }

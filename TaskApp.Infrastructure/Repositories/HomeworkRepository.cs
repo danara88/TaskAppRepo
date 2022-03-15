@@ -26,6 +26,7 @@ namespace TaskApp.Infrastructure.Repositories
         {
             return await _entities.Where(hw => hw.UserId == userId && !hw.IsDeleted)
                                     .Include(hw => hw.User)
+                                    .Include(hw => hw.CategoriesHomeworks).ThenInclude(cw => cw.Category)
                                     .ToListAsync();
         }
 

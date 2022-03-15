@@ -18,6 +18,10 @@ namespace TaskApp.Infrastructure.Data
         {
         }
 
+        /// <summary>
+        /// OnConfiguring method
+        /// </summary>
+        /// <param name="optionsBuilder"></param>
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -29,6 +33,17 @@ namespace TaskApp.Infrastructure.Data
                 var connectionString = configuration.GetConnectionString("Default");
                 optionsBuilder.UseSqlServer(connectionString);
             }
+        }
+
+        /// <summary>
+        /// OnModelCreating method
+        /// </summary>
+        /// <param name="modelBuilder"></param>
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<CategoryHomework>().HasKey(x => new { x.CategoryId, x.HomeworkId });
+
+            base.OnModelCreating(modelBuilder);
         }
 
         public virtual DbSet<User> Users { get; set; }

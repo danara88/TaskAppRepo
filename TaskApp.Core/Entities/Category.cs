@@ -6,6 +6,11 @@
     public class Category : BaseEntity
     {
         /// <summary>
+        /// Primary key
+        /// </summary>
+        public int Id { get; set; }
+
+        /// <summary>
         /// Category name
         /// </summary>
         public string Name { get; set; }

@@ -16,5 +16,7 @@ namespace TaskApp.Core.DTOs
         public string Content { get; set; }
 
         public HomeworkStatusEnum Status{ get; set; }
+
+        public List<CategoryDto> Categories { get; set; }
     }
 }
