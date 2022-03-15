@@ -8,6 +8,11 @@ namespace TaskApp.Core.Entities
     public class Homework : BaseEntity
     {
         /// <summary>
+        /// Primary key
+        /// </summary>
+        public int Id { get; set; }
+
+        /// <summary>
         /// User ID
         /// </summary>
         public int UserId { get; set; }
@@ -46,6 +51,11 @@ namespace TaskApp.Core.Entities
         /// Last updated date
         /// </summary>
         public DateTime? LastUpdatedOn { get; set; }
+
+        /// <summary>
+        /// CategoriesHomeworks navigation property
+        /// </summary>
+        public List<CategoryHomework> CategoriesHomeworks { get; set; }
 
     }
 }

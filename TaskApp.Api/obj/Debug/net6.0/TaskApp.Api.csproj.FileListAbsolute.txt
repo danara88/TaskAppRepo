@@ -78,3 +78,5 @@ C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Api\bin\Debug\net6.0\Azure
 C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Api\bin\Debug\net6.0\Azure.Storage.Common.dll
 C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Api\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Api\bin\Debug\net6.0\System.Memory.Data.dll
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Api\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\wamp64\www\18-practicas\12-taskapp\TaskApp\TaskApp.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll

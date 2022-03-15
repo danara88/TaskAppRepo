@@ -11,6 +11,11 @@ namespace TaskApp.Core.Entities
     public class User : BaseEntity
     {
         /// <summary>
+        /// Primary key
+        /// </summary>
+        public int Id { get; set; }
+
+        /// <summary>
         /// User's name
         /// </summary>
         public string Name { get; set; }
